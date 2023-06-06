@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+body{
+    background-color: #7fffd4;
+}
+.card{
+    position: relative;
+    height: 37rem;
+    width: 45rem;
+    top:6rem;
+    left: 28%;
+    background-color: aqua;
+
+}
+.productcard{
+    position: relative;
+    height: 59%;
+    width: 98%;
+    left: 1%;
+}
+.productcard img{
+    height: 100%;
+    width: 100%;
+}
+.bikes{
+    position: relative;
+    display: flex;
+    height: 5rem;
+    width: 50%;
+    top: 3%;
+    left: 5%;
+    gap: 3rem;
+}
+.bikes img{
+    height: 100%;
+    width: 50%;
+}
+.bikes img:hover{
+    transform: scale(1.07);
+    border: 2px solid #2f07f4;
+    transition: 0.1s;
+}
+.card-info{
+    position: relative;
+    height: 10rem;
+    width: 98%;
+    top: 3%;
+    left: 1%;
+    
+}
+.card-info h1{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    animation: tact 1s linear infinite;
+    color: #3a0ff99b;  
+}
+@keyframes tact{
+    50%{
+        opacity: -1;
+    }
+}
+.card-info p{
+    position: relative;
+    text-align: center;
+    top: 25px;
+}
+.card-info button{
+    position: relative;
+    padding: 10px;
+    border-radius: 20px;
+    top: 35px;
+    left: 43%;
+    font-size: 18px;
+}
+.card-info button:hover{
+    background-color: #7fffd4;
+}
